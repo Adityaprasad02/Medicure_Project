@@ -1,0 +1,17 @@
+package com.patient_management.project_03.Security.model;
+
+public enum Permissions {
+
+
+    CREATE_PATIENT ,
+    READ_ALL_PATIENT,
+    UPDATE_PATIENT,
+    DELETE_PATIENT,
+    ADD_CASE_BY_ID,
+    READ_PATIENT_HISTORY,
+    READ_PATIENT_BY_ID,
+    ASSIGN_TESTRESULT,
+    READ_TESTRESULT_FOR_CASE,
+    UPDATE_TESTRESULT, GET_ALL_DEPT, GET_ASSIGNED_CASES, GET_ALL_ADMIN, 
+
+}

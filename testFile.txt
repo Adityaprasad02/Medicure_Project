@@ -1,0 +1,19 @@
+# create request
+{
+     "name" : "mariya" , 
+     "email" : "mariya@gmail.com",
+     "address" : "Add",
+     "dateOfBirth" : "2001-03-03" , 
+     "registeredDate" : ""
+}
+
+# update request (registeredDate cant be updated)
+/id
+{
+     "name" : "Alice Aussie" , 
+     "email" : "alice@gmail.com",
+     "address" : "DownTown",
+     "dateOfBirth" : "2001-07-26" 
+}
+
+http://localhost:8080/v3/api-docs

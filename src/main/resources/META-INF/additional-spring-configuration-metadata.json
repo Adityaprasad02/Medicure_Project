@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "hospital.secret.key",
+    "type": "java.lang.String",
+    "description": "A description for 'hospital.secret.key'"
+  },
+  {
+    "name": "frontend.url",
+    "type": "java.lang.String",
+    "description": "A description for 'frontend.url'"
+  }
+]}
