@@ -24,7 +24,7 @@ import org.springframework.web.bind.annotation.RequestHeader;
 
 
 @RestController
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {"http://localhost:5173","https://keen-starship-89beb9.netlify.app"})
 public class AdminController {
 
     @Autowired
