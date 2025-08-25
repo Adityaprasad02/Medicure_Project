@@ -36,7 +36,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 
 @RestController
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {"http://localhost:5173","https://medicoregeneralhospital.netlify.app.netlify.app"})
 @RequestMapping("/patients")
 @Tag(name = "Patient" , description = "API for Managing Patients")
 public class PatientController {
