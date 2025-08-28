@@ -48,7 +48,7 @@ public class SecurityConfig {
         httpSecurity
               .cors(cors -> cors.configurationSource(request -> {
                 CorsConfiguration config = new CorsConfiguration();
-                config.setAllowedOrigins(List.of(frontend_url,"https://medicoregeneralhospital.netlify.app"));
+                config.setAllowedOrigins(List.of(frontend_url,"https://medicuregeneralhospital.netlify.app"));
                 config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
                 config.setAllowedHeaders(List.of("*"));
                 config.setAllowCredentials(true);
