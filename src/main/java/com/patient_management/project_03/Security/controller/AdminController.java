@@ -24,7 +24,7 @@ import org.springframework.web.bind.annotation.RequestHeader;
 
 
 @RestController
-@CrossOrigin(origins = {"http://localhost:5173","https://medicoregeneralhospital.netlify.app"})
+@CrossOrigin(origins = {"http://localhost:5173","https://medicuregeneralhospital.netlify.app"})
 public class AdminController {
 
     @Autowired
